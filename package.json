@@ -1,0 +1,16 @@
+{
+ "name": "circuitos",
+ "description": "Projeto para a aula de Circuitos Elétricos e Eletrônicos",
+ "version": "0.1.0",
+ "main": "app.js",
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/pedropadilha13/circuitos.git"
+ },
+ "author": "pedropadilha13",
+ "dependencies": {
+  "express": "^4.16.3",
+  "johnny-five": "^0.15.0",
+  "socket.io": "^2.1.0"
+ }
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+		 <meta charset="utf-8">
+		  <title>Circuitos</title>
+		  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		  <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+		 <div class="text-center">
+			 <div class="title col-md-12">
+				 <label> <h1>Controle de fita de LED RGB</h1> <label>
+			 </div>
+			 <div class="picker col-md-12">
+				 <div> <label> <h3 style="color: red;">Red:</h3> </label> </div>
+				 <div> <input id="red" type="range" min="0" max="255" step="5" value="0"> </div>
+			 </div>
+			 <div class="picker col-md-12">
+				 <div> <label> <h3 style="color: green;">Green:</h3> </label> </div>
+				 <div> <input id="green" type="range" min="0" max="255" step="5" value="0"> </div>
+				 </div>
+			 <div class="picker col-md-12">
+				 <div> <label> <h3 style="color: blue;">Blue:</h3> </label> </div>
+				 <div> <input id="blue" type="range" min="0" max="255" step="5" value="0"> </div>
+			 </div>
+
+			 <div id="picker2" class="picker">
+				 <h3> <label class="aaa"> Cores compostas por 2 outras: <label> </h3>
+				 <input id="test" type="range" min="0" max="1530" step="5" value="0">
+			 </div>
+
+			 <div class="col-md-12" id="viewColor"></div>
+		 </div>
+		 <div class="modal"></div>
+		  <script type="text/javascript" scr="assets/js/bootstrap.min.js"></script>
+		  <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+		  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="assets/js/client.js"></script>
+    </body>
+</html>
