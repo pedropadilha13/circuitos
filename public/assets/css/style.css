@@ -1,11 +1,10 @@
 .title {
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 3%;
 }
 
 .picker {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 input[type="range"] {
@@ -35,8 +34,8 @@ body.loading .modal {
 }
 
 #viewColor {
-	height: 200px;
-	width: 200px;
+	height: 120px;
+	width: 120px;
 	margin: auto;
 	border: 1px solid black;
 }
