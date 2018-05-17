@@ -64,7 +64,7 @@ function toColor(total) {
 		}
 	}
 
-	var color = {
+  var color = {
 		red: (255 - values[1] + values[4]),
 		green: (values[0] - values[3]),
 		blue: (values[2] - values[5])
