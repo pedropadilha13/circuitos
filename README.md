@@ -39,28 +39,28 @@ O trabalho deveria fazer uso de, no mínimo, um dos items a seguir:
 
 	A placa Arduino utilizada é chamada PROGRAM-ME v2.0, que é baseada no Arduino Duemilanove e foi desenvolvida pela [Globalcode](https://www.globalcode.com.br). O diferencial dela é que ela já tem, na própria placa, diversos componentes, sensores e atuadores que facilitam o desenvolvimento de projetos.
 
-    [placa](public/assets/other/images/placa_cima.jpeg)
+    ![placa](public/assets/other/images/placa_cima.jpeg)
 
 2. Fita de LED RGB
 
-	[fita_cima](public/assets/other/images/fita_cima.jpeg)
+	![fita_cima](public/assets/other/images/fita_cima.jpeg)
 
-    [fita_perto](public/assets/other/images/fita_perto.jpeg)
+    ![fita_perto](public/assets/other/images/fita_perto.jpeg)
 
 3. Fonte
 
-	[fonte](public/assets/other/images/fonte.jpeg)
+	![fonte](public/assets/other/images/fonte.jpeg)
 
 4. Cabo USB
 
-	[cabo](public/assets/other/images/cabo.jpeg)
+	![cabo](public/assets/other/images/cabo.jpeg)
 
 A fita de LED possui 4 entradas, sendo elas +12v, R, G e B.
 
 * +12v: é ligada ao Vin do Arduino
 * R, G e B: São ligadas aos transistores que, por sua vez, estão ligados à portas PWM 6, 9 e 3 do Arduino
 
-	[teb](public/assets/other/images/teb.jpeg)
+	![teb](public/assets/other/images/teb.jpeg)
 
 ## Instalação
 
