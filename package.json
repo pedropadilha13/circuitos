@@ -2,7 +2,7 @@
  "name": "circuitos",
  "description": "Projeto para a aula de Circuitos Elétricos e Eletrônicos",
  "version": "0.1.0",
- "main": "app.js",
+ "main": "main.js",
  "repository": {
   "type": "git",
   "url": "https://github.com/pedropadilha13/circuitos.git"
