@@ -84,7 +84,7 @@ Para executar o projeto, basta utilizar o comando ```npm run start```. Simples a
 
 Arduino na porta COM5: `npm run start COM5`
 
-Você verá na tela uma mensagem dizendo que o Arduino conectou-se ao nosso programa. Depois disso, basta ir até [localhost:3000](localhost:3000) controlar sua fita de LED
+Você verá na tela uma mensagem dizendo que o Arduino conectou-se ao nosso programa. Depois disso, basta ir até [localhost:3000](localhost:3000) para controlar sua fita de LED!
 
 ## Interface de Controle
 
