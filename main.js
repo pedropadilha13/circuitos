@@ -14,7 +14,7 @@ app.get("/", function(req, res) {
 });
 
 five.Board({
-	port: "COM9"
+	port: "/dev/ttyUSB0"
 }).on("ready", function() {
 
   console.log("Arduino connected!");
