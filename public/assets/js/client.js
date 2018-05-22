@@ -9,7 +9,7 @@
 	 });
  });
 
- $("#test").change(function() {
+ $("#mix").change(function() {
 	 var total = parseInt($(this).val());
 	 var color = toColor(total);
 
@@ -19,6 +19,45 @@
 
  $("#viewColor").on("click", function () {
  	$("#picker2").toggle();
+ });
+
+ $("#redLabel").on("click", function () {
+ 	socket.emit("rgb", {
+		red: 255,
+		green: 0,
+		blue: 0
+	});
+ });
+
+ $("#greenLabel").on("click", function () {
+ 	socket.emit("rgb", {
+		red: 0,
+		green: 255,
+		blue: 0
+	});
+ });
+
+ $("#blueLabel").on("click", function () {
+ 	socket.emit("rgb", {
+		red: 0,
+		green: 0,
+		blue: 255
+	});
+ });
+
+ $("#stepPick").on("click", function () {
+	 let step = parseInt(prompt("Step value:"));
+	 if (!isNaN(step)) {
+		 $("#mix").attr("step", step);
+	 }
+ });
+
+ $("#black").on("click", function() {
+	 socket.emit("rgb", {
+		 red: 0,
+		 green: 0,
+		 blue: 0
+	 });
  });
 
  socket.on("connect", function(data) {
