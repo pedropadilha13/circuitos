@@ -20,7 +20,9 @@ five.Board({
   console.log("Arduino connected!");
 
   let state = {
-		red: 0, green: 0, blue: 0
+		red: 0,
+    green: 0,
+    blue: 0
 	};
 
    strip = new five.Led.RGB({
@@ -48,7 +50,7 @@ five.Board({
 
    client.on("rgb", function(data) {
 		if (!data.get) {
- 			state.red = data.red;
+ 		  	state.red = data.red;
       	state.green = data.green;
     		state.blue = data.blue;
 			setColors(state);
