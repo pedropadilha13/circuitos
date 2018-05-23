@@ -11,7 +11,7 @@
 
 Desenvolver um projeto utilizando a plataforma [Arduino](https://www.arduino.cc) e os conceitos aprendidos em aula.
 
-### Requisitos básicos
+### Requerimentos Básicos
 
 O trabalho deveria fazer uso de, no mínimo, um dos items a seguir:
 
@@ -31,7 +31,7 @@ O trabalho deveria fazer uso de, no mínimo, um dos items a seguir:
 
 **2. Arduino**: No Arduino, basta fazer o upload do código StandardFirmata (Em caso de dúvidas, siga o [tutorial](http://www.instructables.com/id/Arduino-Installing-Standard-Firmata/))
 
-**3. Pessoais:** Embora não seja necessário para a execução do projeto, é bom ter conhecimentos sobre as linguagens Javascript, HTML e CSS para entender o funcionamento do projeto e fazer possíveis alterações
+**3. Pessoais:** Embora não seja necessário para a execução do projeto, é bom ter conhecimentos sobre as linguagens Javascript, HTML e CSS para entender o funcionamento do projeto (e fazer possíveis alterações, caso seja necessário para o seu projeto)
 
 ## Hardware
 
